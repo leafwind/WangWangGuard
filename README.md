@@ -1,7 +1,7 @@
 # 旺中守門員（改）
 
 ## 緣由
-偶然之下安裝了原本的[旺中守門員](https://github.com/leafwind/no-wang-wang.git)  
+偶然之下安裝了原本的[旺中守門員](https://github.com/chitsaou/no-wang-wang.git)  
 覺得這個概念很棒，但作者暫時沒有繼續更新  
   
 一開始是覺得阻擋的提示可以再優化  
@@ -23,8 +23,8 @@
 ## 安裝方式
 
 * 本軟體為 Chrome 擴充程式
-  - [原始碼 @ git repo](https://github.com/leafwind/no-wang-wang.git)
-  - [安裝網址 @ Chrome Web Store](https://chrome.google.com/webstore/detail/kkihipkdoiapaengcegmaeplaocbhbne/publish-accepted-testers)
+  - [原始碼 @ git repo](https://github.com/leafwind/WangWangGuard.git)
+  - [安裝網址 @ Chrome Web Store](https://chrome.google.com/webstore/detail/pcnjmepalodlodhkngjhdejnaacmjnfj)
 
 * 原始版本「旺中守門員」
   - [原始碼 @ git repo](https://github.com/chitsaou/no-wang-wang.git) 作者 [chitsaou](https://github.com/chitsaou)
@@ -66,14 +66,3 @@
 * 不會記錄您試圖上幾次這些網站
 * 不會記錄您與這些網站傳輸了什麼資料
 
-## 軟體授權
-
-本軟體以 MIT License 授權
-
-Copyright (c) 2014 Connor Hsu
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

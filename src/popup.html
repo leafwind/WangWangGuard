@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <title>Getting Started Extension's Popup</title>
+    <style>
+        body {
+            min-width: 350px;
+            min-height: 300px;
+            overflow-x: hidden;
+        }
+        img {
+            margin: 5px;
+            border: 2px solid black;
+            vertical-align: middle;
+            width: 75px;
+            height: 75px;
+        }
+    </style>
+</head>
+<body>
+<div style="position:relative; left: 1px; top: 1px; right: 3px; bottom: 3px; border: 1px dashed; border-radius:5px; background-color: #fffdcc">
+    <div style="margin: 10px 10px 10px 10px;">
+        <h3> 是否監控以下旺中網站：<br /></h3>
+        <input id="all" type="checkbox" checked=false><label>全選</label><br />
+        <hr />    
+        <div id="urlSwitch">
+            <div><input type="checkbox"><label>[中時]*.chinatimes.com ＆</label><br /><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[中時英文]*.wantchinatimes.com</label></div>
+            <div><input type="checkbox"><label>[中天]*.ctitv.com.tw</label></div>
+            <div><input type="checkbox"><label>[中視]*.ctv.com.tw</label></div>
+            <div><input type="checkbox"><label>[旺e報]*.want-daily.com</label></div>
+            <div><input type="checkbox"><label>[時報週刊]*.ctweekly.com.tw</label></div>
+            <div><input type="checkbox"><label>[TVBS]*.tvbs.com.tw</label></div>
+            <div><input type="checkbox"><label>[八大]*.gtv.com.tw</label><br /></div>
+            <div><input type="checkbox"><label>[時報週刊-愛女生雜誌粉絲團]<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*.facebook.com/ctwgirl</label></div>
+            <div><input type="checkbox"><label>[中時-FB粉絲團]*.facebook.com/CTfans</label></div>
+            <div><input type="checkbox"><label>[中視-FB粉絲團]*.facebook.com/chinatv</label></div>
+            <div><input type="checkbox"><label>[旺報-FB粉絲團]*.facebook.com/wantdaily</label></div>
+            <div><input type="checkbox"><label>[TVBS-FB粉絲團]*.facebook.com/tvbsfb</label></div>
+            <div><input type="checkbox"><label>[八大-FB粉絲團]*.facebook.com/loveGTV</label></div>
+        </div>
+    </div>
+</div>
+<br />
+<div><button id="save">儲存</button></div>
+<div id="status"></div>
+</body>
+<script src="popup.js"></script>
+</html>
+
