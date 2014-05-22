@@ -21,6 +21,15 @@ var b = new Array(blackList.length);
 for (var i = 0; i < blackList.length; i++) { b[i] = 1; }
 localStorage["urlSwitch"] = JSON.stringify(b);
 
+function sleep(milliseconds) {
+  var start = new Date().getTime();
+  while (true) {
+    if ((new Date().getTime() - start) > milliseconds) {
+          break;
+    }
+  }
+}
+
 //callback
 var listener = function(details)
 {
@@ -36,7 +45,13 @@ var listener = function(details)
             localStorage["blockedURL"] = details.url;
             console.log(details.url + " matched " + i + " : " + RegExp(blackList[i]["url"]) + " : " + details.url.search(new RegExp(blackList[i]["url"])));
             //return { cancel: true };
-            return { redirectUrl : chrome.runtime.getURL("redirect.html")};
+            if(true) {
+                return { redirectUrl : chrome.runtime.getURL("redirect.html")};
+            }
+            else {
+                sleep(10000);
+                return { redirectUrl : chrome.runtime.getURL("notfound.html")};
+            }
         }
     }
     return {};

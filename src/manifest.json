@@ -1,6 +1,6 @@
 {
   "name": "旺中守門員（改）",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "manifest_version": 2,
 
   "description": "幫助你面對旺中媒體巨獸。原始碼下載： https://github.com/leafwind/WangWangGuard",
@@ -23,7 +23,8 @@
     "notifyWebPage.js",
     "redirect.html",
     "jquery-2.1.0.min.js",
-    "blacklist.json"
+    "blacklist.json",
+    "./strapdown/strapdown.js"
   ],
 
   "options_page": "options.html",
@@ -56,7 +57,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["jquery-2.1.0.min.js", "function.js"],
+      "js": ["jquery-2.1.0.min.js"],
       "run_at": "document_idle",
       "all_frames": false,
       "_comment": "this is the must for loading jQuery"
