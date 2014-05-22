@@ -23,8 +23,7 @@
     "notifyWebPage.js",
     "redirect.html",
     "jquery-2.1.0.min.js",
-    "blacklist.json",
-    "./strapdown/strapdown.js"
+    "blacklist.json"
   ],
 
   "options_page": "options.html",
